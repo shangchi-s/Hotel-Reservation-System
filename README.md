@@ -1,2 +1,22 @@
-# Hotel-Reservation-System
-It’s a menu-driven JDBC program with basic CRUD (Create, Update, Delete) system for hotel reservations. 
+mysql> use hotel;
+Database changed
+mysql> show tables;
++-----------------+
+| Tables_in_hotel |
++-----------------+
+| reservations    |
++-----------------+
+1 row in set (0.02 sec)
+
+mysql> select*from reservations;
++----------------+------------+--------------+---------------------+
+| reservation_id | guest_name | contact_name | checkout            |
++----------------+------------+--------------+---------------------+
+|              1 | shyam      | 9876546789   | 2020-02-20 09:00:00 |
+|              2 | ram        | 9876546789   | 2020-02-20 01:09:00 |
+|              3 | tam        | 0987654321   | 2025-03-20 10:30:00 |
+|              8 | ghp        | 0987654321   | 2025-03-20 00:00:00 |
+|              9 | ghp        | 0987654321   | 2025-03-20 00:00:00 |
+|             10 | liki       | 6754856784   | 2020-06-23 09:00:32 |
++----------------+------------+--------------+---------------------+
+6 rows in set (0.00 sec)
